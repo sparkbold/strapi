@@ -9,6 +9,11 @@
     "increments": true,
     "timestamps": true
   },
+  "pluginOptions": {
+    "i18n": {
+      "enabled": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string",
