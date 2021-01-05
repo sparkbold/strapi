@@ -1,8 +1,6 @@
 {
   "private": true,
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.9.0",
     "@swc-node/jest": "^1.0.3",
