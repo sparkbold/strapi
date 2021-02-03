@@ -53,7 +53,7 @@
     "@buffetjs/core": "3.3.3-next.2",
     "@buffetjs/custom": "3.3.3-next.2",
     "@buffetjs/hooks": "3.3.3-next.2",
-    "@buffetjs/icons": "3.3.3-next.2",
+    "@buffetjs/icons": "3.3.3",
     "@buffetjs/styles": "3.3.3-next.2",
     "@buffetjs/utils": "3.3.3-next.2",
     "bootstrap": "^4.5.3",
