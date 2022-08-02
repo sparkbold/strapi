@@ -21,7 +21,7 @@
     "mongoose-long": "^0.3.2",
     "pluralize": "^8.0.0",
     "semver": "^7.3.4",
-    "strapi-utils": "3.4.1"
+    "strapi-utils": "3.6.10"
   },
   "author": {
     "email": "hi@strapi.io",
