@@ -7,15 +7,19 @@
   "author": "Pongstr Ordillo <https://github.com/pongstr>",
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
-    "test": "echo \"no tests yet\""
+    "test": "echo \"no tests yet\"",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "pkgcloud": "^2.0.0",
-    "streamifier": "^0.1.1"
+    "streamifier": "^0.1.1",
+    "@snyk/protect": "latest"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
     "npm": ">=6.0.0"
   },
-  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53",
+  "snyk": true
 }
