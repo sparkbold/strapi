@@ -9,24 +9,26 @@
     "required": true
   },
   "scripts": {
-    "test": "echo \"no tests yet\""
+    "test": "echo \"no tests yet\"",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@buffetjs/core": "3.3.3-next.2",
-    "@buffetjs/custom": "3.3.3-next.2",
+    "@buffetjs/custom": "3.3.7",
     "@buffetjs/hooks": "3.3.3-next.2",
     "@buffetjs/icons": "3.3.3-next.2",
     "@buffetjs/styles": "3.3.3-next.2",
-    "@buffetjs/utils": "3.3.3-next.2",
+    "@buffetjs/utils": "3.3.7",
     "byte-size": "^7.0.0",
     "cropperjs": "^1.5.6",
-    "immer": "^7.0.14",
+    "immer": "^9.0.6",
     "immutable": "^3.8.2",
     "is-valid-domain": "0.0.15",
     "koa-range": "0.3.0",
     "koa-static": "^5.0.0",
-    "lodash": "4.17.19",
-    "node-fetch": "2.6.1",
+    "lodash": "4.17.21",
+    "node-fetch": "2.6.7",
     "react": "^16.13.1",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.9.0",
@@ -35,12 +37,13 @@
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "reactstrap": "8.4.1",
-    "sharp": "0.26.2",
+    "sharp": "0.30.5",
     "strapi-helper-plugin": "3.4.1",
     "strapi-provider-upload-local": "3.4.1",
     "strapi-utils": "3.4.1",
     "stream-to-array": "^2.3.0",
-    "uuid": "^3.2.1"
+    "uuid": "^3.2.1",
+    "@snyk/protect": "latest"
   },
   "author": {
     "name": "A Strapi developer",
@@ -59,5 +62,6 @@
     "npm": ">=6.0.0"
   },
   "license": "SEE LICENSE IN LICENSE",
-  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53",
+  "snyk": true
 }
